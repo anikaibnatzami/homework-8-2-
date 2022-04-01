@@ -1,0 +1,130 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 400;
+	color: #3d2514;
+}
+
+
+/*header start*/
+header{
+    background-image: url(../images/2.jpg);
+
+
+}
+.wrapper{
+	margin: 0 auto;
+	padding-top: 93px;
+	width: 90%;
+	
+	overflow: hidden;
+	display: block;
+	background-image: url(../images/2.jpg);
+
+
+}
+.logo{
+	padding-left: 14px;
+	float: left;
+	width: 16%;
+	
+
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	padding-top: 25px;
+	float: right;
+	width: 48%;
+	
+}
+
+.menu ul li{
+	list-style: none;
+    float: left;
+    margin: 6px 27.2px
+}
+
+.menu ul li a{
+	text-decoration: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3d2514;
+    text-transform: uppercase;
+    transition: .3s;
+    border-radius: 5px;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #fdc14b;
+	background-color: #3d2514;
+	padding: 12px 33px;
+}
+.contact{
+	float: right;
+	width: 21%;
+	margin-right: 740px;
+}
+.contact img{
+	float: left;
+    padding-right: 22px;
+}
+.contact h2{
+	   font-size: 18px;
+}
+
+
+.banner{
+	padding-bottom: 20px;
+	overflow: hidden;
+	background-image: url(../images/2.jpg);
+}
+.paragraph{
+	float: left;
+    margin: -112px 0;
+}
+.b_para{
+	margin-top: 180px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+	font-weight: 400;
+	border: 2px dashed; #3d2514;
+	padding: 5px 15px;
+	float: left;
+}
+.text{
+	margin: 223px 411px;
+    margin-left: 411;
+    margin-top: 219px;
+    margin-bottom: 0;
+	font-family: 'Alfa Slab One', cursive;
+    font-size: 125px;
+    font-weight: 400;
+    float: left;
+    text-transform: uppercase;
+}
+.b_img{
+	width: 670px;
+	float: right;
+}
+.b_img img{
+	    width: 100%;
+}
+
+.u_img{
+	width: 178px;
+	float: right;
+}
+.u_img img{
+	margin-top: 298px;
+    margin-left: 220px;
+    width: 100%;
+}
+
